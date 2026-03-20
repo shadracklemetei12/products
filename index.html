@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Our Products</h1>
+
+    <!-- Search, Filter, and Sort -->
+    <div id="controls">
+        <input type="text" id="search-bar" placeholder="Search products...">
+        <label for="category-filter">Filter by Category:</label>
+        <select id="category-filter">
+            <option value="All">All</option>
+        </select>
+
+        <label for="sort-by">Sort by:</label>
+        <select id="sort-by">
+            <option value="none">None</option>
+            <option value="price-asc">Price: Low → High</option>
+            <option value="price-desc">Price: High → Low</option>
+            <option value="rating-desc">Rating: High → Low</option>
+        </select>
+    </div>
+
+    <!-- Container for products -->
+    <div id="products-container"></div>
+
+    <!-- Cart -->
+    <div id="cart">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: $<span id="cart-total">0</span></p>
+        <button id="clear-cart">Clear Cart</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
