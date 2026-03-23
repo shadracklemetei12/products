@@ -1,11 +1,11 @@
 //Products array
 const products = [
-    {name:"Wireless Headphones", price:50, image:"headphones.webp", description:"Noise cancelling headphones.", category:"Electronics", rating:4.5},
-    {name:"Smart Watch", price:120, image:"smartwatch.webp", description:"Track fitness & notifications.", category:"Wearables", rating:4.7},
-    {name:"Bluetooth Speaker", price:35, image:"speaker.webp", description:"Portable high-quality speaker.", category:"Electronics", rating:4.3},
-    {name:"Running Shoes", price:80, image:"shoes.webp", description:"Comfortable & lightweight.", category:"Footwear", rating:4.6},
-    {name:"Sunglasses", price:25, image:"sunglasses.webp", description:"Stylish UV protection.", category:"Accessories", rating:4.2},
-    {name:"Fitness Band", price:60, image:"fitness band.webp", description:"Monitor your health easily.", category:"Wearables", rating:4.4}
+    {name:"Wireless Headphones", price:15, image:"headphones.webp", description:"Noise cancelling headphones.", category:"Electronics", rating:4.5},
+    {name:"Smart Watch", price:28, image:"smartwatch.webp", description:"Track fitness & notifications.", category:"Wearables", rating:4.7},
+    {name:"Bluetooth Speaker", price:7, image:"speaker.webp", description:"Portable high-quality speaker.", category:"Electronics", rating:4.3},
+    {name:"Running Shoes", price:33, image:"shoes.webp", description:"Comfortable & lightweight.", category:"Footwear", rating:4.6},
+    {name:"Sunglasses", price:21, image:"sunglasses.webp", description:"Stylish UV protection.", category:"Accessories", rating:4.2},
+    {name:"Fitness Band", price:25, image:"fitness band.webp", description:"Monitor your health easily.", category:"Wearables", rating:4.4}
 ];
 
 //Select elements
